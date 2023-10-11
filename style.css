@@ -230,7 +230,7 @@ hr {
     font-weight: bold;
 }
 
-.button{
+.button {
     width: 140px;
     border-radius: 10px;
     box-shadow: none;
@@ -239,35 +239,48 @@ hr {
     height: 45px;
     background-color: #150e5c;
 }
-.project1 img{
+
+.project1 img {
     height: 200px;
     width: 400px;
     margin-left: -50px;
 }
-.button a{
+
+.button a {
     background-color: #150e5c;
 }
 
 @media only screen and (max-width: 1100px) {
-    #home{
+    #home {
         display: flex;
         flex-direction: column;
     }
-    .firstsection img{
+
+    .firstsection img {
         margin-top: 100px;
         margin-left: -50px;
     }
+
+    .secondsection {
+        margin-left: 60px;
+        padding-left: 60px;
+        width: 50%;
+    }
+
     .education {
         margin-right: 100px;
     }
+
     .qualification {
         margin-left: 30px;
     }
+
     .project {
         margin-left: 60px;
         padding-left: 60px;
     }
 }
+
 .toggle_button {
     position: absolute;
     top: .75rem;
@@ -277,34 +290,44 @@ hr {
     justify-content: space-between;
     width: 30px;
     height: 21px;
-  }
-  .toggle_button .bar {
+}
+
+.toggle_button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
-  }
+}
 
 @media (max-width: 768px) {
     .toggle_button {
-      display: flex;
+        display: flex;
+    }
 
-    }.wrapper ul {
+    .wrapper ul {
         display: none;
         width: 100%;
         flex-direction: column;
-      }
-    
-      .nav-bar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    
-      .nav-bar li {
-        padding: 20px;
-      }
-    
-      .links.active {
-        display: flex;
-      }
     }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .nav-bar li {
+        padding: 8px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .right {
+        margin-top: 300px;
+    }
+
+    .left {
+        margin-bottom: 10px;
+    }
+}
