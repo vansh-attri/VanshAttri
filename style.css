@@ -41,6 +41,9 @@ a:hover {
 
 .left {
     font-size: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 100px;
 }
 
 main {
